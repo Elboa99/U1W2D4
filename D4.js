@@ -61,7 +61,7 @@ function boundary(n) {
         
     }
 }
- console.log(boundary());
+ console.log(boundary(35));
 
 
 
@@ -72,7 +72,20 @@ function boundary(n) {
  ritornare la stringa originale senza alterarla.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA */ 
+
+function epify(stringa) {
+    if (stringa === "EPICODE") {
+        return stringa
+        
+    }else{
+        console.log("EPICODE",stringa);
+    }
+   
+    
+}
+
+console.log(epify("EPICODE"));
 
 /* ESERCIZIO 6
  Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
@@ -80,12 +93,29 @@ function boundary(n) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function check3and7(numeroPositivo) {
+    const numPositivo = numeroPositivo > 0
+    if (numPositivo % 3 === 0 || numPositivo % 7 === 0) {
+
+        console.log("true");
+        
+    }
+    
+}
+
+ 
 
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function reverseString(reverse) {
+    const originale = reverse = "EPICODE"
+    const nuovastringa = originale.replace
+    
+}
+
 
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
