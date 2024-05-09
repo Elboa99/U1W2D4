@@ -16,6 +16,18 @@ return Areatot
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+function crazySum(num1,num2) {
+    if (num1 === num2) {
+        return (num1 + num2) * 3
+        
+    } else{
+        return num1 + num2
+    }    
+}
+
+console.log(crazySum(5,5));
+
+
 
 /* ESERCIZIO 3
  Scrivi una funzione di nome "crazyDiff" che calcola la differenza assoluta tra un numero fornito come parametro e 19.
